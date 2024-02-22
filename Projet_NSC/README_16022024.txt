@@ -1,0 +1,81 @@
+SUR POWER BI AS A SERVICE :
+Un workspace (w1) pour le developpement
+Un workspace (w2) pour le test
+Un workspace (w3) pour le pre production
+Un workspace (w4) pour la production
+Utilisation d'un pipeline pour le transfert de w1 à w4 
+
+
+
+
+
+LIVRABLE 1 : rapport power BI
+LIVRABLE 2 :
+Un rapport Power BI (pbx) et une documentation technique (Readme) pour 
+expliquer les étapes de calcul / préparation et les fomules DAX / Langage M
+
+
+KPI1 : Transit Time de chaque véhicule (pour le checkpoint 1, checkpoint 2 et le trajet total)
+les étapes de calcul / préparation et les fomules DAX[coding]
+
+(1) Calcul de checkpoint 1
+
+(2) Calcul de checkpoint 2
+
+(3) Calcul du trajet total
+
+
+KPI2 : La moyenne journalière (par exemple, l'ensemble de la flotte a fait en moyenne 8:18 entre checkpoint 1) (par jour / par semaine / par mois)
+les étapes de calcul / préparation et les fomules DAX[coding]
+
+Calcul de :
+Moyenne journalière/Hebdomadaire/Mensuel de la Flotte entre checkpoint 1
+
+(1) La flotte a fait en moyenne c:d entre checkpoint 1  par jour
+(2) La flotte a fait en moyenne e:f entre checkpoint 1  par semaine
+(3) La flotte a fait en moyenne g:h entre checkpoint 1  par mois
+
+KPI3 : Customer satisfaction : La performance globale des véhicules vs la cible :
+les étapes de calcul / préparation et les fomules DAX[coding] 
+
+Calcul de :
+
+Categoriser(Interface Graphique) Une Immatriculation en :
+
+Good : Afficher les immatriculations concernées
+La cible : 
+Trajet total : 6h30
+Checkpoint 1 : 2h30
+Checkpoint 2 : 4h
+
+
+Average :  Afficher les immatriculations concernées 
+La cible : 
+Trajet total : 6h30
+Checkpoint 1 : 2h30
+Checkpoint 2 : 4h
+
+
+Bad :  Afficher les immatriculations concernées
+La cible : 
+Trajet total : 6h30
+Checkpoint 1 : 2h30
+Checkpoint 2 : 4h
+
+
+
+
+KPI4 : Top 10 Monthly truck performance 
+les étapes de calcul / préparation et les fomules DAX[coding]
+
+Calcul des : Les véhicules qui ont fait le plus de voyages ou traversé le plus de checks points 
+
+choisir a faire Les plus de Voyages ou Traversé le plus de check points pour les 6 JOURS RESTANTS
+(1) Top 10
+(2) Worst 10
+
+KPI5 : Le temps moyen mis au chargement (site de départ) et au déchargement (site d'arrivée)
+les étapes de calcul / préparation et les fomules DAX[coding]
+
+(1) Depart-Chargement
+(2) Destinée-Déchargement
