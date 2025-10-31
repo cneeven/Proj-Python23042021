@@ -1,0 +1,19 @@
+import glob
+
+data_tagdetail = ['noaa_data',
+                  ['/resources/noaa-hdta/data/',
+                   '/resources/noaa-hdta/data/usa-daily/15mar2015/',
+                   '/resources/noaa-hdta/data/hdf5/15mar2015/',
+                   '/resources/noaa-hdta/data/derived/15mar2015/'
+                  ]]
+nb_tagdetail = ['noaa_hdta',['/resources/noaa_hdta_*.ipynb']]
+
+def tag_files(tagdetail):
+    pathnames = tagdetail[1]
+    for path in pathnames:
+        for fname in glob.glob(path):
+            kawb.set_tag(fname, tagdetail[0])
+
+# Tag Project files
+tag_files(data_tagdetail)
+tag_files(nb_tagdetail)
